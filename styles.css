@@ -1,0 +1,261 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/imagen-inicio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand img { 
+    height: 60px; 
+    width: auto;
+    border-radius: 20%;
+}
+
+.navbar{
+    background-color: #4d5053;
+    height: 100px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+/* INICIO */
+#nosotros { 
+    margin-top: 100px;
+    padding: 50px;
+    min-height: 85vh;
+}
+
+.inicio-caja{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-bottom: 40px;
+}
+
+#titulo{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #209953;
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+#info{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #f2f2f2; 
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+
+#footer { 
+    background-color: #343a40; 
+    color: #ffffff; padding: 20px; 
+    text-align: center; 
+} 
+
+#footer a { 
+    color: #209953; 
+    text-decoration: none; 
+} 
+
+#footer a:hover { 
+    text-decoration: underline; 
+} 
+
+.icons-redes{
+    margin: 20px 0; 
+} 
+
+.icons-redes a { 
+    margin: 0 10px; 
+    font-size: 1.5rem; 
+}
+
+.boletin { 
+    margin: 20px 0; 
+} 
+
+.boletin input[type="email"] { 
+    padding: 10px; 
+    width: 250px; 
+    border: none; 
+    border-radius: 5px; 
+} 
+
+button {
+    padding: 10px 20px; 
+    background-color: #209953; 
+    color: #343a40; 
+    border: none; 
+}
+
+/* PRODUCTOS*/
+.producto-caja { 
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.card { 
+    margin-bottom: 20px; 
+} 
+
+.card img { 
+    height: 200px; 
+    object-fit: cover;
+}
+
+.custom-btn { 
+    background-color: #209953 !important;  
+    border: none; 
+    color: #343a40;
+}
+
+/* RESEÑAS */
+.reseña-caja { 
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.form-caja{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.estadistica-caja {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#titulo2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #209953;
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption { 
+    background-color: rgba(0, 0, 0, 0.5);  
+    padding: 20px; 
+    border-radius: 10px; 
+} 
+.carousel-control-prev-icon, .carousel-control-next-icon { 
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 30%; 
+} 
+
+.form-input{ 
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 50px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+} 
+
+/* CONTACTO */
+.container-contacto {
+    margin-top: 150px; 
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.titulo-contacto{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #209953;
+    text-align: center;
+    font-family: "Geist Mono", monospace;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.form-container, .map-container {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.form-container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    
+}
+
+.map-container {
+    flex: 1;
+    margin: 10px;
+    margin-top: 80px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container-contacto{
+        flex-direction: column;
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+
+    .contacto-btn {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}

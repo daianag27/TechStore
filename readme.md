@@ -16,6 +16,7 @@ TechStore es una tienda en línea de tecnología donde los usuarios pueden compr
 - Bootstrap 5
 - Font Awesome (para íconos)
 - Google Fonts (para tipografía)
+- SweetAlert2 (para alertas interactivas)
 
 ## Instalación
 
@@ -23,4 +24,4 @@ Para comenzar a trabajar con el proyecto en tu máquina local, sigue estos pasos
 
 1. **Clonar el repositorio**:
 
-git clone https://github.com/tu-usuario/TechStore.git
+   git clone https://github.com/tu-usuario/TechStore.git
